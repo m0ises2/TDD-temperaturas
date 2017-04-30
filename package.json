@@ -1,0 +1,19 @@
+{
+  "name": "temperature",
+  "version": "0.1.0",
+  "description": "Convertir temperaturas",
+  "main": "./app/converter.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Moises Alvarado <moisesalvarado84@gmail.com> (https://github.com/m0ises2)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "express": "^4.15.2"
+  }
+}
